@@ -65,7 +65,16 @@ If you look in the `index.html` file, you will see the following:
 
 ```html
 <form id="create-task-form" action="#" method="POST">
+  <label for="new-task-description">Tase the type attribute to specify the one we want. For this lab, we are using two: a text field (type="text") and a submit button (type="submit").
+
+If you look in the index.html file, you will see the following:
+
+<form id="create-task-form" action="#" method="POST">
   <label for="new-task-description">Task description:</label>
+  <input
+    type="text"
+    id="new-task-description"
+    name="new-task-description"k description:</label>
   <input
     type="text"
     id="new-task-description"
